@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="All rights reserved"
+[[mods]]
+modId="arkiadeco"
+version="${file.jarVersion}"
+displayName="Arkia Deco"
+logoFile="icon.png"
+credits="Arkia Deco v${file.jarVersion} by Savalet" #optional
+authors="Savalet"
+description='''
+Arkia Deco is a mod adding some decorative blocks, to populate your home with beautiful deco blocks.
+'''
+[[dependencies.arkiadeco]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"
