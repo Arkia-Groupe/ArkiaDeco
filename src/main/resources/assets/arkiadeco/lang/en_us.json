@@ -1,5 +1,8 @@
 {
   "item.arkiadeco.test_item": "Test Item",
   "item.arkiadeco.test_stick": "Test Stick",
-  "block.arkiadeco.blue_wood": "Blue Wood"
+  "block.arkiadeco.blue_planks": "Blue Planks",
+  "block.arkiadeco.red_planks": "Red Planks",
+  "block.arkiadeco.pink_planks": "Pink Planks",
+  "block.arkiadeco.purple_planks": "Purple Planks"
 }

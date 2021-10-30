@@ -16,7 +16,10 @@ public class ModBlocks {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ArkiaDeco.MODID);
 
-    public static final RegistryObject<Block> BLUE_WOOD = createBlock("blue_wood", () -> new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(3f, 15f).harvestTool(ToolType.PICKAXE).harvestLevel(1).setRequiresTool()));
+    public static final RegistryObject<Block> BLUE_PLANKS = createBlock("blue_planks", () -> new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(3f, 15f).harvestTool(ToolType.AXE).harvestLevel(0).setRequiresTool()));
+    public static final RegistryObject<Block> RED_PLANKS = createBlock("red_planks", () -> new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(3f, 15f).harvestTool(ToolType.AXE).harvestLevel(0).setRequiresTool()));
+    public static final RegistryObject<Block> PINK_PLANKS = createBlock("pink_planks", () -> new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(3f, 15f).harvestTool(ToolType.AXE).harvestLevel(0).setRequiresTool()));
+    public static final RegistryObject<Block> PURPLE_PLANKS = createBlock("purple_planks", () -> new Block(AbstractBlock.Properties.create(Material.WOOD).hardnessAndResistance(3f, 15f).harvestTool(ToolType.AXE).harvestLevel(0).setRequiresTool()));
 
     public static RegistryObject<Block> createBlock(String name, Supplier<? extends Block> supplier) {
         RegistryObject<Block> block = BLOCKS.register(name, supplier);
