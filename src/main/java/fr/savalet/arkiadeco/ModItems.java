@@ -10,6 +10,6 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ArkiaDeco.MODID);
 
     public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> TEST_STICK = ITEMS.register("test_stick", () -> new Item(new Item.Properties().maxStackSize(1).group(ItemGroup.MATERIALS)));
+    public static final RegistryObject<Item> TEST_STICK = ITEMS.register("test_stick", () -> new Item(new Item.Properties().stacksTo(1).tab(ItemGroup.TAB_MATERIALS)));
 
 }

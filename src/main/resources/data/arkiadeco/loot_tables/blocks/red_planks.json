@@ -9,9 +9,9 @@
           "name": "arkiadeco:red_planks"
         }
       ],
-      "conditions": [
+      "condition": [
         {
-          "conditions": "minecraft:survives_explosions"
+          "condition": "minecraft:survives_explosions"
         }
       ]
     }
